@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .parent {
+            background: linear-gradient(to right, #000000b6, #000000);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            position: relative;
+        }
+
+        .box {
+            height: 820px;
+            width: 850px;
+            background-color: #F0DE36;
+            border-radius: 50%;
+            margin-left: 530px;
+            margin-top: 20px;
+            position: absolute;
+            z-index: 0;
+
+        }
+
+        .btn {
+          position: absolute;
+          top: 500px;
+          left: 200px;
+          height: 58px;
+          width: 140px;
+          background-color:  #010d4f;
+          color: white;
+          border: none;
+          border-radius: 8px;
+          font-size: 20px;
+          margin-top: -130px;
+          margin-left: 162px;
+        }
+
+
+        nav {
+            background-color: #000000;
+            height: 100px;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+        }
+
+/* 
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1300px;
+            align-items: center;
+            padding-top: 18px;
+           
+        } */
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding-left: 40px;
+            padding-top: 30px;
+            font-size: 25px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        ul {
+            margin-left: 900px;
+            
+        }
+
+        .pp {
+            background-color: skyblue;
+            width: 100%;
+            height: 130px;
+
+            position: absolute;
+            z-index: 0;
+            bottom: 0;
+        }
+
+        .logo {
+            font-size: 40px;
+            color: white;
+            margin-top: 7px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-bottom: 20px;
+           
+        }
+
+        hr {
+            width: 100%;
+            border: 1px solid white;
+
+        }
+
+
+        h1 {
+            font-size: 25px;
+            color: black;
+            margin-left: 320px;
+            margin-top: -170px;
+           
+        }
+
+        
+        h2 {
+            font-size: 90px;
+            color: #2b99cc ;
+            margin-left: 75px;
+            margin-top: 205px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           
+        }
+
+        .bus {
+            position: relative;
+            top: 500px;
+            z-index: 100;
+            left: 725px;
+
+        }
+
+
+
+        .img2 {
+            margin-top: 50px;
+            display: none;
+        }
+
+
+        .img3 {
+
+            margin-top: 50px;
+            display: none;
+        }
+
+        .parent:hover .img3 {
+            margin: 0 auto;
+            width: 300px;
+            position: absolute;
+            display: block;
+            margin-top: 250px;
+            animation-name: bs;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        .parent:hover .img2 {
+            margin: 0 auto;
+            width: 300px;
+            position: absolute;
+            display: block;
+            margin-top: 190px;
+            animation-name: bss;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes bss {
+            100% {
+
+                right: 685px;
+                top: 0;
+            }
+
+            0% {
+
+                right: 10px;
+                top: 0px;
+            }
+
+        }
+
+        @keyframes bs {
+            100% {
+
+                left: 650px;
+                top: 0;
+            }
+
+            0% {
+
+                left: 20px;
+                top: 0px;
+            }
+        }
+
+        .sky {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="parent">
+        <div class="header">
+            <nav>
+                <div class="logo">Logo</div>
+                <ul>
+                    <a href="#">Home</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Events</a>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="hr">
+            <hr>
+        </div>
+        <div class="sky">
+            <img class="img2" src="Cute_Cloud_-_Coloring_Book.png" alt="" height="200px" width="300px">
+            <img class="img3" src="Cute_Cloud_-_Coloring_Book.png" alt="" height="200px" width="300px">
+        </div>
+        <div class="box">
+            <h2>SUMMER PARTY</h2>
+            <h1>August 25 - 8:00 AM</h1>
+            <button class="btn">Book Now</button>
+        </div>
+        <img class="bus" src="bus.png" alt="" height="290px" width="450px">
+
+        <div class="pp">
+
+        </div>
+    </div>
+</body>
+
+</html>

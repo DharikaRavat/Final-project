@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .parent {
+            background: linear-gradient(to right, #ffffff, #c9efc9);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            position: relative;
+            overflow: hidden;
+        }
+  
+        .parent:hover {
+            background: linear-gradient(to right, #ffffff, #c9efc9);
+        }
+
+        .parent:hover .box {
+            background-color:  #f0de36;
+        }
+
+        .parent:hover .btn {
+            background-color:  #f0de36;
+        } 
+
+        nav {
+            background-color: #164B60;
+            height: 100px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding-left: 40px;
+            margin-top: 18px;
+            font-size: 25px;
+            padding-right: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .logo {
+            font-size: 45px;
+            color: white;
+            margin-bottom: 10px;
+            margin-left: 137px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        h1 {
+            font-size: 55px;
+            color: black;
+            margin-top: 54px;
+            margin-left: 138px;
+        }
+
+
+        h2 {
+            font-size: 50px;
+            color: black;
+            margin-top: 20px;
+            margin-left: 145px;
+        }
+
+        .p1 {
+            font-size: 22px;
+            color: rgb(0, 0, 0);
+            margin-left: 147px;
+            margin-top: 45px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+
+        .p2 {
+            font-size: 22px;
+            color: rgb(0, 0, 0);
+            margin-left: 147px;
+            margin-top: 13px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+
+        .p3 {
+            font-size: 22px;
+            color: rgb(0, 0, 0);
+            margin-left: 147px;
+            margin-top: 13px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+
+        .p4 {
+            font-size: 22px;
+            color: rgb(0, 0, 0);
+            margin-left: 147px;
+            margin-top: 13px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .btn {
+            height: 70px;
+            width: 178px;
+            color: white;
+            background-color: #fd8d14;
+            padding-bottom: 19px;
+            border: none;
+            border-radius: 8px;
+            margin-left: 152px;
+            margin-top: 43px;
+            font-size: 23px;
+            padding-top: 15px;
+            padding-left: 5px;
+            margin-bottom: 27px;
+        }
+
+        /* .btn:hover {
+            background-color: #f0de36;
+            color: #000000;
+        } */
+
+        @keyframes btn {
+            0% {
+                top: -10px;
+            }
+
+
+        }
+
+        .box {
+            height: 1000px;
+            width: 1000px;
+            background-color: #fd8d14;
+            border-radius: 50%;
+            float: right;
+            margin-top: 140px;
+            margin-right: 68px;
+        }
+
+        /* .box:hover {
+            background-color: #f0de36;
+        } */
+
+        img {
+            margin-left: -103px;
+            position: absolute;
+            margin-bottom: -80px;
+            z-index: 15;
+            margin-top: -200px;
+
+        }
+
+        hr {
+            width: 50px;
+            border: 2px solid black;
+            margin-left: 143px;
+            margin-top: 185px;
+        }
+
+        ul {
+            margin-right: -1000px;
+            margin-top: -5px;
+            
+        }
+
+        .box1 {
+            height: 50px;
+            width: 53px;
+            border: 2px solid white;
+            border-radius: 7px;
+            float: right;
+            margin-top: 10px;
+            margin-bottom: 14px;
+            margin-right: 150px;
+        }
+        .box1 i{
+            height: 40px;
+            width: 40px;
+            color: #ffffff;
+            margin-top: 12px;
+            margin-left: 16px;
+            font-size: 23px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+
+        <div class="header">
+            <nav>
+
+                <div class="logo">Logo</div>
+
+                <ul>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Profile</a>
+                   
+                </ul>
+                <div class="box1">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+
+            </nav>
+        </div>
+        <div class="hr">
+            <hr>
+        </div>
+        <div class="box">
+            <img class="img" src="men.png" alt="" height="716px" width="1152px">
+        </div>
+
+        <h1><i>We Support Businesses From</i></h1>
+        <h2><i>Launch To Exit.</i></h2>
+        <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque</p>
+        <p class="p2">necessitatibus sunt nisi officia in. Excepturi reprehenderit</p>
+        <p class="p3">necessitatibus facilis similique repudiandae, cupiditate natus error</p>
+        <p class="p4">aliquid perspiciatis deserunt ea?</p>
+        </p>
+        <button class="btn">Learn More</button>
+    </div>
+
+</body>
+
+</html>

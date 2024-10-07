@@ -1,0 +1,20 @@
+Theme-color Code :
+
+1. Orange : #fd8d14
+2. Black : #000000
+3. White : #ffffff
+4. Background Gradient : #c9efc9, #ffffff
+
+Navigation Color :
+
+1. #164B60
+
+User Icon Code : <i class="ri-user-fill"></i>
+
+Hover Color :
+
+1. Yellow : #f0de36
+
+Paragraph :
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque necessitatibus sunt nisi officia in. Excepturi reprehenderit necessitatibus facilis similique repudiandae, cupiditate natus error aliquid perspiciatis deserunt ea?
